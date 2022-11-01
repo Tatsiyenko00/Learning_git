@@ -9,6 +9,6 @@ int main(int argc, char **argv)
 	fgets(name, 255, stdin);
 	printf("length = %d\n", strlen(name)); /*debug line */
 	
-	print("Hello %s!\n", name);
+	print("Hello, %s!\n", name);
 	return 0;
 }
